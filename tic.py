@@ -1,4 +1,6 @@
-"""Simple command line tic-tac-toe game"""
+#!/usr/bin/env python3
+
+#"""Simple command line tic-tac-toe game"""
 
 import sys
 
@@ -8,7 +10,7 @@ c = [0,' ',' ',' ',' ',' ',' ',' ',' ',' ']
 
 def main():
     """ Main function """
-    
+
     draw_board()
     player1()
 
